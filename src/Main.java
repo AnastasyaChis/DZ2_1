@@ -11,12 +11,11 @@ public class Main {
         // новую переменную и выводите на экран
 
         int ticket = 15790; // стоимость булета
-
         int bonus = 20; // 20р.= 1 миля
-        int result = ticket/bonus; // расчет бонусов
+        int result = ticket / bonus; // расчет бонусов
 
         System.out.println("Начисленные бонусы за покупку билета:");
-        System.out.println( result + " миль");
+        System.out.println(result + " миль");
 
 
     }
